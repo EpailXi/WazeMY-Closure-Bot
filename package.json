@@ -1,0 +1,16 @@
+{
+  "name": "waze-closure-bot",
+  "version": "7.0.0",
+  "description": "Telegram alerts for Waze road closures made by app users (WME data over plain HTTP, no browser)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node check.js",
+    "test": "node test/run-test.js && node test/config-test.js && node test/integration-test.js",
+    "test-message": "node src/test-message.js"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  }
+}
